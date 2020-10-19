@@ -376,37 +376,12 @@ textarea {
 /* =============
     Footer
 ============= */
-/* =============
-    Demo
-============= */
-.round {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 300px;
-  border-radius: 200px; }
-
-.ball-m {
-  height: 100px;
-  width: 100px;
-  border-top: 30px solid #C66;
-  border-bottom: 30px solid #6C6;
-  border-left: 30px solid #66C;
-  border-right: 30px solid #CC6; }
-
-.square {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 300px; }
-
-.square-t {
-  height: 100px;
-  width: 100px;
-  border-top: 30px solid #C66;
-  border-bottom: 30px solid #6C6;
-  border-left: 30px solid #66C;
-  border-right: 30px solid #CC6; }
-
-#text {
-  color: #800000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px; }
+#svg-hourglass {
+  display: grid;
+  grid-template-columns: auto 50% auto;
+  grid-template-areas: ". svg ."; }
+  #svg-hourglass > div {
+    grid-area: svg;
+    border: 1px solid aqua; }
+  #svg-hourglass svg {
+    border: 3x solid #000; }

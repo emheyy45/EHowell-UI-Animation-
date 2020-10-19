@@ -1,0 +1,15 @@
+#svg-hourglass {
+    display: grid;
+    grid-template-columns: auto 50% auto; 
+    grid-template-areas: ". svg .";
+    >div {
+       grid-area: svg;
+    border: 1px solid aqua;
+
+    }
+
+        svg{
+            border: 3x solid #000;
+        }
+
+}
