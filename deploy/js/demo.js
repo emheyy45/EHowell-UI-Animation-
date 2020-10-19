@@ -1,10 +1,10 @@
 import {gsap} from "gsap";
 
-gsap.set("#svg-hourglass",{transformOrigin: "center"});
 
-const hourGlassTL = gsap.timeline();
-hourGlassTL.to("Layer_1", {duration:1, rotation: 180});
+const moveBallTL = gsap.timeline();
+moveBallTL.from("#svg-image", {duration:1, y: -400, ease:"none"})
+            .to ("svg-image",{duration:1, y:-400, ease:"none"})
 
-export function hourGlassAnimation(){
-    return hourGlassTL; 
+export function moveBallAnimation(){
+   // return hourGlassTL; 
 }

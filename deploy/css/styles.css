@@ -376,12 +376,11 @@ textarea {
 /* =============
     Footer
 ============= */
-#svg-hourglass {
+#svg-move {
   display: grid;
   grid-template-columns: auto 50% auto;
   grid-template-areas: ". svg ."; }
-  #svg-hourglass > div {
-    grid-area: svg;
-    border: 1px solid aqua; }
-  #svg-hourglass svg {
+  #svg-move > div {
+    grid-area: svg; }
+  #svg-move svg {
     border: 3x solid #000; }

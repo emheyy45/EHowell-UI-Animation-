@@ -1,5 +1,6 @@
-import {hourGlassAnimation} from "./demo.js"
+
+import {moveBallAnimation} from "./demo.js"
 
 const mainTL = gsap.timeline();
-mainTL.add(hourGlassAnimation());
+mainTL.add(moveBallAnimation());
 

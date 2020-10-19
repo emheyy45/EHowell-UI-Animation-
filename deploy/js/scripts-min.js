@@ -5153,16 +5153,15 @@
       // to protect from tree shaking
   TweenMaxWithCSS = gsapWithCSS.core.Tween;
 
-  gsapWithCSS.set("#svg-hourglass",{transformOrigin: "center"});
+  const moveBallTL = gsapWithCSS.timeline();
+  moveBallTL.from("#svg-image", {duration:1, y: -400, ease:"none"})
+              .to ("svg-image",{duration:1, y:-400, ease:"none"});
 
-  const hourGlassTL = gsapWithCSS.timeline();
-  hourGlassTL.to("Layer_1", {duration:1, rotation: 180});
-
-  function hourGlassAnimation(){
-      return hourGlassTL; 
+  function moveBallAnimation(){
+     // return hourGlassTL; 
   }
 
   const mainTL = gsap.timeline();
-  mainTL.add(hourGlassAnimation());
+  mainTL.add(moveBallAnimation());
 
 }());
