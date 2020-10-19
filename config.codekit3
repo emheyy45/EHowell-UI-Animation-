@@ -33,8 +33,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/demo-min.js",
-		"oF": 1,
+		"oAP": "/dev/demo-min.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -299,7 +299,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 622852666.37431097,
-	"displayValue": "EHowell-Motion-GSAP",
+	"displayValue": "EHowell-UI-Animation",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_purple",
 	"iconImageWasSetByUser": 0
