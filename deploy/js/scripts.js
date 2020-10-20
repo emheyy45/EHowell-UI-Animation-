@@ -1,3 +1,4 @@
+import {gsap} from "gsap";
 
 import {moveBallAnimation} from "./demo.js"
 
