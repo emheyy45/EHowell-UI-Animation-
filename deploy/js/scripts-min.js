@@ -5155,10 +5155,11 @@
 
   const moveBallTL = gsapWithCSS.timeline();
   moveBallTL.from("#circle-1", {duration:1, y: -400, ease:"none"})
-              .to ("#circle-1",{duration:1, y:-400, ease:"none"});
+              .to ("#circle-2",{duration:1, y:-400, ease:"none"})
+              .to ("#circle-3",{duration:1, y:-400, ease:"none"});
 
   function moveBallAnimation(){
-     // return hourGlassTL; 
+     return moveBallTL; 
   }
 
   const mainTL = gsapWithCSS.timeline();
