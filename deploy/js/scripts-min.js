@@ -5154,9 +5154,9 @@
   TweenMaxWithCSS = gsapWithCSS.core.Tween;
 
   const moveBallTL = gsapWithCSS.timeline();
-  moveBallTL.from("#circle-1", {duration:1, y: -400, ease:"none"})
-              .to ("#circle-2",{duration:1, y:-400, ease:"none"})
-              .to ("#circle-3",{duration:1, y:-400, ease:"none"});
+  moveBallTL.from("#circle-1", {duration:1, y: -200, ease:"bounce"})
+              .to ("#circle-2",{duration:1, y:-200, ease:"bounce"})
+              .to ("#circle-3",{duration:1, y:-200, ease:"bouce"});
 
   function moveBallAnimation(){
      return moveBallTL; 
