@@ -381,6 +381,10 @@ textarea {
   grid-template-columns: auto 50% auto;
   grid-template-areas: ". svg ."; }
   #svg-move > div {
-    grid-area: svg; }
-  #svg-move svg {
-    border: 3x solid #000; }
+    grid-area: svg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; }
+    #svg-move > div svg {
+      border: 3x solid #000; }
