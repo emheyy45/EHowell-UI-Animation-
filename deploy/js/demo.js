@@ -11,6 +11,7 @@ moveBallTL.from ("#svg-image", {duration:1, y:-100, ease:"bounce"})
             
             
             
+            
 export function moveBallAnimation(){
    
 
